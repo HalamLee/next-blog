@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts'; // => CSR 방식에서는 사용하지 못함.
 // import { useEffect, useState } from 'react'; // => CSR 방식
 import Link from 'next/link';
-import Date from '../components/date';
+import Date from '../components/Date';
 
 // SSG로 렌더링하기
 export async function getStaticProps() {
